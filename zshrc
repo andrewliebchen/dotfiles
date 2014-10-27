@@ -41,9 +41,10 @@ bindkey "^Y" accept-and-hold
 bindkey "^N" insert-last-word
 bindkey -s "^T" "^[Isudo ^[A" # "t" for "toughguy"
 
-# use vim as the visual editor
-export VISUAL=vim
+# use sublime as the visual editor
+export VISUAL=subl
 export EDITOR=$VISUAL
+
 
 # look for ey config in project dirs
 export EYRC=./.eyrc

@@ -42,7 +42,7 @@ bindkey "^N" insert-last-word
 bindkey -s "^T" "^[Isudo ^[A" # "t" for "toughguy"
 
 # use sublime as the visual editor
-export VISUAL=subl
+export VISUAL='atom -w'
 export EDITOR=$VISUAL
 
 
